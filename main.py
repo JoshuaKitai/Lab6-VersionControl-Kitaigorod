@@ -8,6 +8,7 @@ def encode(password):
             res += str(int(char) + 3)
     return res
 
+
 def decode(password):
     res = ''
     for char in password:
@@ -16,6 +17,7 @@ def decode(password):
         else:
             res += str(int(char) - 3)
     return res
+
 
 if __name__ == '__main__':
     i = 0
