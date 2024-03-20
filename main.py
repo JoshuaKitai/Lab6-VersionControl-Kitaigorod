@@ -30,6 +30,6 @@ if __name__ == '__main__':
             print(f'Your password has been encoded and stored!')
         elif option_num == 2:
             stored_decode = decode(stored_encode)
-            print(f'The encoded password is {stored_encode}, and the original password is {stored_decode}')
+            print(f'The encoded password is {stored_encode}, and the original password is {stored_decode}.')
         elif option_num == 3:
             i += 1
